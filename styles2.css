@@ -1,0 +1,113 @@
+body {
+    background-color: lightgray;
+}
+
+ul {
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+h1 {
+    color: rgb(18, 175, 175);
+    text-align: center;
+    outline-width: 10px;
+    outline-color: black;
+}
+
+h2 {
+    color: rgb(18, 175, 175);
+}
+
+h3 {
+    color: rgb(18, 175, 175);
+    text-align: center;
+}
+
+figure {
+    height: 300px;
+    width: 350px;
+    margin-left: 50px;
+}
+
+figcaption {
+    text-align: center;
+}
+
+.container {
+    margin-top: 100px;
+}
+
+.box {
+    height: 400px;
+    color:rebeccapurple;
+    background-color: #ffffff;
+}
+
+.navbar {
+    background-color: #ffffff;
+    padding: 0px;
+}
+
+.navbar-brand{
+    padding: 30px;
+    margin-left: 100px;
+    background-color: rgb(18, 175, 175);
+    color: whitesmoke;
+}
+
+.navbar-item {
+    display:inline-block;
+    background-color: white;
+}
+
+.nav-link {
+    margin-right: 20px;
+    margin-left: 10px;
+    color: black;
+}
+
+.row {
+    background-color: white;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.img-thumbnail-big {
+    height: 200px;
+    width: 250px;
+    float: left;
+}
+
+.img-thumbnail-small {
+    height: 125px;
+    width: 175px;
+}
+
+.page-footer {
+    text-align: center;
+    color: #ffffff;
+    background-color: slategray;
+    margin-top: 20px;
+    padding-bottom: 5px;
+}
+
+.card {
+    width: 750px;
+    align-items: center;
+    margin-left: 175px;
+}
+
+.card-img-top {
+    height: 400px;
+    width: 550px;
+}
+
+#nav-select {
+    border: none;
+    padding: 10px;
+    margin-right: 0;
+}
+
+#plot-names {
+    font-size: 15px;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Latitude vs. Temperature</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles2.css">
+</head>
+
+<body>
+    <div class="container">
+        <nav class="navbar navbar-expand-md fixed-top">
+            <strong><a href="PPatel-LandingPage.html" class="navbar-brand">Latitude vs. Weather</a></strong>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">menu
+<!--               <span class="navbar-toggler-icon"></span>--> 
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item dropdown">
+<!--                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">Plots</a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">LatvsTemp</a>                     
+                            <a class="dropdown-item" href="#">LatvsHumidity</a>
+                            <a class="dropdown-item" href="#">LatvsCloudiness</a>
+                            <a class="dropdown-item" href="#">LatvsWind Speed</a>
+                      </div> --> 
+                       <select name="navbar_select" class="navbar-item" id="nav-select">
+                        <option value="">Plots</option>
+                        <a href="assets/visualizations-Purvi/LatvsTemp.png" class="nav-link">
+                            <option id=plot-names value="LatvsTemp">Lat vs Temp</option>
+                        </a> 
+                        <option id=plot-names value="LatvsHumidity">Lat vs Humidity</option>
+                        <option id=plot-names value="LatvsCloudiness">Lat vs Clouds</option>
+                        <option id=plot-names value="LatvsWindSpeed">Lat vs Wind</option>                        
+                        </select>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="ComparisonsPage.html" class="nav-link">Comparison</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="DataPage.html" class="nav-link">Raw Data</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <main>
+            <h1>Analysis: Latitude vs. Temperature</h1>
+            <div class="card">
+                <a href="assets/visualizations-Purvi/LatvsTemp.png">
+                    <img class="card-img-top" alt="Card header image" src=assets/visualizations-Purvi/LatvsTemp.png>
+                </a>
+                <div class="card-body">
+                    <h5>Relationship of Latitude to Global Temperature on March 28, 2020</h5>
+                    <hr>
+                    <p class="card-text">Temperatures were generally the highest between -30 and 30 degerees latitude, corresponding with tropical zones, which tend to have higher temperatures year-round. Of the temperatures at the extreme regions of the globe (below -30 or above 30 degrees latitude), temperatures in the southern hempshere are much higher, reflecting the fact that it was still the summer in the global south on this date.</p>
+                    <a href="PPatel-LandingPage.html" class="btn btn-info">Return to Mainpage</a>
+                    <a href="ComparisonsPage.html" class="btn btn-info">Return to Comparisons</a>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+
+<footer class="page-footer font-small pt-4">
+    <div class="footer">
+        <p>PPatel - Data Analytics Bootcamp, Tec de Monterrey 2020 (Monterrey, Mexico)</p>
+        <p>Trilogy Education Services © 2019. All Rights Reserved.</p>
+    </div>
+</footer>
+
+</html>
+
+

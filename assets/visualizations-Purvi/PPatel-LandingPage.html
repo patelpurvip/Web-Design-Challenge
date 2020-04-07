@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PPatel Latitude vs. Weather-HOME</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles2.css">
+</head>
+
+<body>
+    <div class="container">
+        <nav class="navbar navbar-expand-md fixed-top">
+            <strong><a href="#" class="navbar-brand">Latitude vs. Weather</a></strong>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">menu
+<!--               <span class="navbar-toggler-icon"></span>--> 
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item dropdown">
+<!--                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">Plots</a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="LatvsTemp.html">LatvsTemp</a>                     
+                            <a class="dropdown-item" href="LatvsHumidity.html">LatvsHumidity</a>
+                            <a class="dropdown-item" href="LatvsCloudiness.html">LatvsCloudiness</a>
+                            <a class="dropdown-item" href="LatvsWindspeed.html">LatvsWind Speed</a>
+                      </div> --> 
+                       <select name="navbar_select" class="navbar-item" id="nav-select">
+                        <option value="">Plots</option>
+                        <a href="LatvsTemp.html" class="nav-link">
+                            <option id=plot-names value="LatvsTemp">Lat vs Temp</option>
+                        </a> 
+                        <option id=plot-names value="LatvsHumidity">Lat vs Humidity</option>
+                        <option id=plot-names value="LatvsCloudiness">Lat vs Clouds</option>
+                        <option id=plot-names value="LatvsWindSpeed">Lat vs Wind</option>                        
+                        </select>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="ComparisonsPage.html" class="nav-link">Comparison</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="DataPage.html" class="nav-link">Raw Data</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <main>
+            <div class="row">
+                <div class="col-lg-7">
+                    <div class="box">
+                        <h2>Summary: Latitude vs. X</h2>
+                        <hr>
+                        <div class="thumbnail">
+                            <a href="ComparisonsPage.html">
+                                <img src="assets/visualizations-Purvi/LatvsTemp.png" alt="..." class="img-thumbnail-big">
+                            </a>
+                          </div>
+<!--                       <a target="_blank" href="assets/visualizations-Purvi/LatvsTemp.png">
+                            <img src="assets/visualizations-Purvi/LatvsTemp.png" alt="Temperature vs. Latitude">
+                        </a>--> 
+                        <p>The purpose of this project was to analyze how weather changes in relation to distance from the Earth’s equator. The analysis entailed pulling data from the OpenWeatherMap API to assemble a dataset of over 500 cities.  The data presented reflects weather patterns reported on March 28, 2020. </p>
+                        <p>After assembling the data set, Matplotlib was used to plot various comparisons of weather vs. latitude to evaluate possible correlations within the data. Factors evaluated included temperature, cloudiness, wind speed, and humidity.  This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations observed. </p>
+                        <br>
+                        <br>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="box">
+                        <h3>Visualizations</h3>
+                        <hr>
+                        <br>
+                        <ul>
+                            <a href="LatvsTemp.html">
+                                <img src="assets/visualizations-Purvi/LatvsTemp.png" alt="..." class="img-thumbnail-small">
+                            </a>
+                             <a href="LatvsHumidity.html">
+                                <img src="assets/visualizations-Purvi/LatvsHumidity.png" alt="..." class="img-thumbnail-small">
+                            </a>
+                             <a href="LatvsCloudiness.html">
+                                <img src="assets/visualizations-Purvi/LatvsCloudiness.png" alt="..." class="img-thumbnail-small">
+                            </a>
+                             <a href="LatvsWindspeed.html">
+                                <img src="assets/visualizations-Purvi/LatvsWindspeed.png" alt="..." class="img-thumbnail-small">
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+<footer class="page-footer font-small pt-4">
+    <div class="footer">
+        <p>PPatel - Data Analytics Bootcamp, Tec de Monterrey 2020 (Monterrey, Mexico)</p>
+    </div>
+</footer>
+</html>
