@@ -20,17 +20,15 @@ h2 {
 
 h3 {
     color: rgb(18, 175, 175);
-    text-align: center;
 }
 
 figure {
     height: 300px;
     width: 350px;
-    margin-left: 50px;
 }
 
-figcaption {
-    text-align: center;
+tbody {
+    background-color: rgb(234, 247, 247);
 }
 
 .container {
@@ -41,6 +39,10 @@ figcaption {
     height: 400px;
     color:rebeccapurple;
     background-color: #ffffff;
+    border-style: outset;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 10 px;
 }
 
 .navbar {
@@ -67,7 +69,6 @@ figcaption {
 }
 
 .row {
-    background-color: white;
     padding-top: 25px;
     padding-bottom: 25px;
 }
@@ -98,8 +99,8 @@ figcaption {
 }
 
 .card-img-top {
-    height: 400px;
-    width: 550px;
+    height: 300px;
+    width: 450px;
 }
 
 #nav-select {

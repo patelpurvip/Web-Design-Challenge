@@ -19,22 +19,22 @@
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item dropdown">
-<!--                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">Plots</a>
-                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">Plots</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="LatvsTemp.html">LatvsTemp</a>                     
                             <a class="dropdown-item" href="LatvsHumidity.html">LatvsHumidity</a>
                             <a class="dropdown-item" href="LatvsCloudiness.html">LatvsCloudiness</a>
                             <a class="dropdown-item" href="LatvsWindspeed.html">LatvsWind Speed</a>
-                      </div> --> 
-                       <select name="navbar_select" class="navbar-item" id="nav-select">
+                        </div> 
+<!--                      <select name="navbar_select" class="navbar-item" id="nav-select">
                         <option value="">Plots</option>
-                        <a href="LatvsTemp.html" class="nav-link">
-                            <option id=plot-names value="LatvsTemp">Lat vs Temp</option>
-                        </a> 
+                            <a href="LatvsTemp.html" class="nav-link"></a>
+                                <option id=plot-names value="LatvsTemp">Lat vs Temp</option>
+                            </a> 
                         <option id=plot-names value="LatvsHumidity">Lat vs Humidity</option>
                         <option id=plot-names value="LatvsCloudiness">Lat vs Clouds</option>
                         <option id=plot-names value="LatvsWindSpeed">Lat vs Wind</option>                        
-                        </select>
+                        </select>-->
                     </li>
                     <li class="navbar-item">
                         <a href="ComparisonsPage.html" class="nav-link">Comparison</a>
@@ -55,10 +55,7 @@
                             <a href="ComparisonsPage.html">
                                 <img src="assets/visualizations-Purvi/LatvsTemp.png" alt="..." class="img-thumbnail-big">
                             </a>
-                          </div>
-<!--                       <a target="_blank" href="assets/visualizations-Purvi/LatvsTemp.png">
-                            <img src="assets/visualizations-Purvi/LatvsTemp.png" alt="Temperature vs. Latitude">
-                        </a>--> 
+                        </div>
                         <p>The purpose of this project was to analyze how weather changes in relation to distance from the Earth’s equator. The analysis entailed pulling data from the OpenWeatherMap API to assemble a dataset of over 500 cities.  The data presented reflects weather patterns reported on March 28, 2020. </p>
                         <p>After assembling the data set, Matplotlib was used to plot various comparisons of weather vs. latitude to evaluate possible correlations within the data. Factors evaluated included temperature, cloudiness, wind speed, and humidity.  This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations observed. </p>
                         <br>
@@ -77,6 +74,7 @@
                              <a href="LatvsHumidity.html">
                                 <img src="assets/visualizations-Purvi/LatvsHumidity.png" alt="..." class="img-thumbnail-small">
                             </a>
+
                              <a href="LatvsCloudiness.html">
                                 <img src="assets/visualizations-Purvi/LatvsCloudiness.png" alt="..." class="img-thumbnail-small">
                             </a>
@@ -89,6 +87,9 @@
             </div>
         </main>
     </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 <footer class="page-footer font-small pt-4">
     <div class="footer">

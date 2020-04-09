@@ -18,22 +18,13 @@
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item dropdown">
-<!--                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">Plots</a>
-                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">LatvsTemp</a>                     
-                            <a class="dropdown-item" href="#">LatvsHumidity</a>
-                            <a class="dropdown-item" href="#">LatvsCloudiness</a>
-                            <a class="dropdown-item" href="#">LatvsWind Speed</a>
-                      </div> --> 
-                       <select name="navbar_select" class="navbar-item" id="nav-select">
-                        <option value="">Plots</option>
-                        <a href="assets/visualizations-Purvi/LatvsTemp.png" class="nav-link">
-                            <option id=plot-names value="LatvsTemp">Lat vs Temp</option>
-                        </a> 
-                        <option id=plot-names value="LatvsHumidity">Lat vs Humidity</option>
-                        <option id=plot-names value="LatvsCloudiness">Lat vs Clouds</option>
-                        <option id=plot-names value="LatvsWindSpeed">Lat vs Wind</option>                        
-                        </select>
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">Plots</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="LatvsTemp.html">LatvsTemp</a>                     
+                            <a class="dropdown-item" href="LatvsHumidity.html">LatvsHumidity</a>
+                            <a class="dropdown-item" href="LatvsCloudiness.html">LatvsCloudiness</a>
+                            <a class="dropdown-item" href="LatvsWindspeed.html">LatvsWind Speed</a>
+                        </div> 
                     </li>
                     <li class="navbar-item">
                         <a href="ComparisonsPage.html" class="nav-link">Comparison</a>
@@ -53,8 +44,8 @@
                         Click any plot for a more detailed analysis
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-lg">
+                <div class="row graphs">
+                    <div class="col-lg-6">
                         <h3>vs. Temperature</h3>
                         <figure>
                             <a href="LatvsTemp.html">
@@ -63,7 +54,7 @@
                             <figcaption><em>Summary: correlation by hemisphere</em></figcaption>
                         </figure>
                     </div>
-                    <div class="col-lg">
+                    <div class="col-lg-6">
                         <h3>vs. Humidity</h3>
                         <figure>
                             <a href="LatvsHumidity.html">
@@ -73,8 +64,8 @@
                         </figure>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col">
+                <div class="row graphs">
+                    <div class="col-lg-6">
                         <h3>vs. Cloudiness</h3>
                         <figure>
                             <a href="LatvsCloudiness.html">
@@ -83,7 +74,7 @@
                             <figcaption><em>Summary: no direct correlation</em></figcaption>
                         </figure>
                     </div>
-                    <div class="col">
+                    <div class="col-lg-6">
                         <h3>vs. Wind Speed</h3>
                         <figure>
                             <a href="LatvsWindspeed.html">
@@ -96,6 +87,9 @@
             </div> 
         </main>
     </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 
 <footer class="page-footer font-small pt-4">
