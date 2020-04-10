@@ -36,7 +36,6 @@ tbody {
 }
 
 .box {
-    height: 400px;
     color:rebeccapurple;
     background-color: #ffffff;
     border-style: outset;
@@ -68,6 +67,10 @@ tbody {
     color: black;
 }
 
+.navbar-toggler-icon {
+
+}
+
 .row {
     padding-top: 25px;
     padding-bottom: 25px;
@@ -80,8 +83,9 @@ tbody {
 }
 
 .img-thumbnail-small {
-    height: 125px;
-    width: 175px;
+    height: 120px;
+    width: 160px;
+    margin-left: 15px;
 }
 
 .page-footer {
@@ -93,14 +97,13 @@ tbody {
 }
 
 .card {
-    width: 750px;
+    width: auto;
     align-items: center;
-    margin-left: 175px;
 }
 
 .card-img-top {
-    height: 300px;
-    width: 450px;
+    height: auto;
+    width: auto;
 }
 
 #nav-select {
