@@ -14,12 +14,12 @@ h1 {
     outline-color: black;
 }
 
-h2 {
+h2, h3 {
     color: rgb(18, 175, 175);
 }
 
-h3 {
-    color: rgb(18, 175, 175);
+p.page-footer {
+    line-height: .8em;
 }
 
 figure {
@@ -31,8 +31,17 @@ tbody {
     background-color: rgb(234, 247, 247);
 }
 
+.main-container {
+    min-height: 100vh;
+    overflow: hidden;
+    display: block;
+    position: relative;
+    padding-bottom: 100px;
+}
+
 .container {
     margin-top: 100px;
+    flex-direction: column;
 }
 
 .box {
@@ -94,11 +103,17 @@ tbody {
     background-color: slategray;
     margin-top: 20px;
     padding-bottom: 5px;
+    flex-shrink: 0;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 .card {
     width: auto;
     align-items: center;
+    margin-bottom: 20px;
 }
 
 .card-img-top {
