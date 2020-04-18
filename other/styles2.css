@@ -1,0 +1,128 @@
+body {
+    background-color: lightgray;
+}
+
+ul {
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+h1 {
+    color: rgb(18, 175, 175);
+    text-align: center;
+    outline-width: 10px;
+    outline-color: black;
+}
+
+h2, h3 {
+    color: rgb(18, 175, 175);
+}
+
+p.page-footer {
+    line-height: .8em;
+}
+
+figure {
+    height: 300px;
+    width: 350px;
+}
+
+tbody {
+    background-color: rgb(234, 247, 247);
+}
+
+.main-container {
+    min-height: 100vh;
+    overflow: hidden;
+    display: block;
+    position: relative;
+    padding-bottom: 100px;
+}
+
+.container {
+    margin-top: 100px;
+    flex-direction: column;
+}
+
+.box {
+    color:rebeccapurple;
+    background-color: #ffffff;
+    border-style: outset;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 10 px;
+}
+
+.navbar {
+    background-color: #ffffff;
+    padding: 0px;
+}
+
+.navbar-brand{
+    padding: 30px;
+    margin-left: 100px;
+    background-color: rgb(18, 175, 175);
+    color: whitesmoke;
+}
+
+.navbar-item {
+    display:inline-block;
+    background-color: white;
+}
+
+.nav-link {
+    margin-right: 20px;
+    margin-left: 10px;
+    color: black;
+}
+
+.row {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.img-thumbnail-big {
+    height: 200px;
+    width: 250px;
+    float: left;
+}
+
+.img-thumbnail-small {
+    height: 120px;
+    width: 160px;
+    margin-left: 15px;
+}
+
+.page-footer {
+    text-align: center;
+    color: #ffffff;
+    background-color: slategray;
+    margin-top: 20px;
+    padding-bottom: 5px;
+    flex-shrink: 0;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.card {
+    width: auto;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.card-img-top {
+    height: auto;
+    width: auto;
+}
+
+#nav-select {
+    border: none;
+    padding: 10px;
+    margin-right: 0;
+}
+
+#plot-names {
+    font-size: 15px;
+}
