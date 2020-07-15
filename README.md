@@ -4,7 +4,7 @@
 
 This repository houses the source code for a responsive [Weather Data Visuaizations Dashboard](https://patelpurvip.github.io/Web-Design-Weather-Data-Dashboard/) created to display global weather data for March 28, 2020. 
 
-The project was a basic dashboarding exercise using only HTML and CSS, to demonstrate how to quickly and easily deploy data analyzed through Pandas and Matplotlib libraries for Python.  The original dataset and graphs displayed in this dashboard are the product of an earlier python-API exercise found [here](https://github.com/patelpurvip/python-api-challenge).
+The project was a basic dashboarding exercise using only HTML and CSS to demonstrate how to quickly and easily deploy data analyzed through Pandas and Matplotlib libraries for Python.  The original dataset and graphs displayed in this dashboard are the product of an earlier python-API exercise found [here](https://github.com/patelpurvip/python-api-challenge).
 
 # Dashboard Contents
 
