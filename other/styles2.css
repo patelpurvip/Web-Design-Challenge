@@ -18,10 +18,6 @@ h2, h3 {
     color: rgb(18, 175, 175);
 }
 
-p.page-footer {
-    line-height: .8em;
-}
-
 figure {
     height: 300px;
     width: 350px;
@@ -36,7 +32,7 @@ tbody {
     overflow: hidden;
     display: block;
     position: relative;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
 }
 
 .container {
@@ -97,10 +93,9 @@ tbody {
     text-align: center;
     color: #ffffff;
     background-color: slategray;
-    margin-top: 20px;
     padding-bottom: 5px;
     flex-shrink: 0;
-    height: 100px;
+    height: 60px;
     position: absolute;
     bottom: 0;
     width: 100%;
