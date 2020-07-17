@@ -29,3 +29,5 @@ At the top of every page there is a navigation menu that:
   * Contains a dropdown on the right of the navbar named "Plots" which provides links to each individual visualization page.
   * Provides two more links on the right: "Comparisons" which links to the comparisons page, and "Data" which links to the data page.
   * Is responsive to changes in screen size.
+
+![Website Demo](assets/dashboard+demo.gif)
