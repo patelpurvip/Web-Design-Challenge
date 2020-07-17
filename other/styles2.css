@@ -1,5 +1,5 @@
 body {
-    background-color: lightgray;
+    background-color:rgb(176, 238, 238);
 }
 
 ul {
@@ -8,15 +8,12 @@ ul {
 }
 
 h1 {
-    color: rgb(18, 175, 175);
+    /* color: rgb(18, 175, 175); */
     text-align: center;
     outline-width: 10px;
     outline-color: black;
 }
 
-h2 {
-    color: rgb(18, 175, 175);
-}
 
 figure {
     height: 300px;
@@ -57,7 +54,7 @@ tbody {
 .navbar-brand{
     padding: 30px;
     margin-left: 100px;
-    background-color: rgb(18, 175, 175);
+    background-color: slategray;
     color: whitesmoke;
 }
 
